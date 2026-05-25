@@ -1,0 +1,34 @@
+# Environment variables (절대 커밋 금지)
+.env
+.env.local
+*.env
+
+# Python
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Outputs (생성된 영상/오디오/이미지)
+outputs/
+*.mp4
+*.mp3
+*.wav
+*.png
+*.jpg
+!docs/*.png
+
+# Logs는 커밋할 거니까 제외 안 함
+# logs/  ← 주석처리, timing.json은 보고용으로 커밋
+
+# OS
+Thumbs.db
